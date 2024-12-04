@@ -54,3 +54,6 @@ function validateEmail(email) {
   const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return re.test(email);
 }
+// Loading animation functionality
+window.onload = function () {
+  const loading
